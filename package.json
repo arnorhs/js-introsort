@@ -1,0 +1,26 @@
+{
+  "name": "introsort",
+  "version": "0.0.1",
+  "description": "Javascript implementation of Introsort",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/arnorhs/js-introsort.git"
+  },
+  "keywords": [
+    "intro",
+    "sort",
+    "introsort",
+    "algorithm"
+  ],
+  "devDependencies": {
+    "mocha": "1.9.x"
+  },
+  "author": "Arnor Heidar Sigurdsson <arnorhs@gmail.com> (http://arnorhs.com/)",
+  "license": "MIT",
+  "readmeFilename": "readme.md",
+  "gitHead": "784719fd625159b5839b0df445c6b3ebd3edb318"
+}

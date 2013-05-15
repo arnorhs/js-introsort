@@ -1,6 +1,6 @@
 ### Introsort implemented in Javascript
 
-This is a Javascript implementation of Introsort.
+Javascript implementation of [Introsort](http://en.wikipedia.org/wiki/Introsort).
 
 There are probably not many real-world use cases for it judging by [this JSperf benchmark](http://jsperf.com/introsort),
 but I was Googling and couldn't find a Javascript version of this algorithm.
