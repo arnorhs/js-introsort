@@ -1,3 +1,14 @@
+/*
+ * Intro sort ported from Java to Javascript
+ *
+ * original Copyright Ralph Unden,
+ * http://ralphunden.net/content/tutorials/a-guide-to-introsort/?q=a-guide-to-introsort
+ * Modifications: Bernhard Pfahringer
+ *   changes include: local insertion sort, no global array
+ *
+ * Javascript port: Arnor Heidar Sigurdsson <arnorhs@gmail.com>
+ */
+
 module.exports = sort;
 
 var size_threshold = 16;
