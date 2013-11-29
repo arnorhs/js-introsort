@@ -24,7 +24,7 @@ function sort(a) {
 */
 function introsort_loop (a, lo, hi, depth_limit) {
     while (hi-lo > size_threshold) {
-        if (depth_limit == 0) {
+        if (depth_limit === 0) {
             heapsort(a, lo, hi);
             return;
         }
@@ -42,7 +42,7 @@ function partition(a, lo, hi, x) {
         while (a[i] < x) i++;
         j=j-1;
         while (x < a[j]) j=j-1;
-        if(!(i < j)) return i;
+        if (i >= j) return i;
         exchange(a,i,j);
         i++;
     }
@@ -68,11 +68,11 @@ function medianof3(a, lo, mid, hi) {
 * Heapsort algorithm
 */
 function heapsort(a, lo, hi) {
-    var n = hi-lo;
-    for (var i=n/2; i>=1; i=i-1) {
+    var n = hi-lo, i;
+    for (i= n / 2; i >= 1; i--) {
         downheap(a,i,n,lo);
     }
-    for (var i=n; i>1; i=i-1) {
+    for (i = n; i > 1; i--) {
         exchange(a,lo,lo+i-1);
         downheap(a,1,i-1,lo);
     }

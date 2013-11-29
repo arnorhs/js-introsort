@@ -21,6 +21,11 @@ var array = [5,3,9,292];
 introsort(array);
 ```
 
+### Todo:
+
+- I noticed that it does not sort correctly if the array contains zeros. Probably something wrong in my port (at least trailing zeros)
+- The whole thing can probably be optimized a lot for Javascript. The straight up Java port is probably not the fastest way to go
+
 ### License
 
 MIT
